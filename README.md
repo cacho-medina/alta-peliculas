@@ -1,8 +1,5 @@
-# React + Vite
+# Alta Peliculas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Proyecto desarrollado con react y utilizando bootstrap para el diseño, ademas de utilizar la libreria react-icons para agregar algun icono utilizado.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+En esta aplicacion se puede guardar nuestras peliculas favoritas, ingresando el nombre, una breve descripcion y seleccionando el genero al que pertenece.
