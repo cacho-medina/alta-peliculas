@@ -14,7 +14,7 @@ function Lista({ peliculas, deletePelicula }) {
                     );
                 })
             ) : (
-                <p className="error">No hay peliculas guardadas</p>
+                <p className="error text-center">No hay peliculas guardadas</p>
             )}
         </div>
     );
