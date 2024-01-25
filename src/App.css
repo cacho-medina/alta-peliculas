@@ -1,4 +1,35 @@
 #root {
-    min-width: 100vw;
-    /* margin: 0 auto; */
+    width: 100vw;
+    min-height: 100vh;
+    margin: 0;
+}
+.error {
+    color: #f26f6f;
+    font-size: small;
+}
+.errorInput {
+    border: 2px solid #ef2626 !important;
+}
+.form-control,
+.form-select {
+    transition: all 2s ease-in;
+    &:focus {
+        box-shadow: rgba(240, 46, 170, 0.4) 0px 5px,
+            rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px,
+            rgba(240, 46, 170, 0.1) 0px 20px !important;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .max {
+        width: 40%;
+        max-width: 450px;
+    }
+    .inputMax {
+        width: 500px;
+    }
+}
+
+.maxCard {
+    max-height: 100px;
 }

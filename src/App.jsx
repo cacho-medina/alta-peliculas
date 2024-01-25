@@ -4,7 +4,7 @@ import Formulario from "./components/Formulario";
 
 function App() {
     return (
-        <Container className="bg-secondary text-light py-4">
+        <Container fluid className="bg-secondary text-light p-0">
             <Formulario />
         </Container>
     );
