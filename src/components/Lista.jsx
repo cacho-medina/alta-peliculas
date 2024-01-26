@@ -2,7 +2,7 @@ import Pelicula from "./Pelicula";
 
 function Lista({ peliculas, deletePelicula }) {
     return (
-        <div className="d-flex flex-column gap-3 px-sm-5 gap-sm-4 flex-md-row flex-wrap justify-content-center py-5">
+        <div className="d-flex flex-column gap-3 px-sm-5 gap-sm-4 flex-md-row flex-wrap justify-content-center py-3">
             {peliculas.length ? (
                 peliculas.map((peli, index) => {
                     return (
